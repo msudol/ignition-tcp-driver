@@ -33,8 +33,9 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
-        			<maven.compiler.release>10</maven.compiler.release>
-    			</configuration>
+        				<source>1.7</source>
+        				<target>1.7</target>
+    				</configuration>
 			</plugin>
 			<!-- git plugin extracts build number and date -->
 			<plugin>
