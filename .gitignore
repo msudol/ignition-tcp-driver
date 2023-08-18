@@ -1,6 +1,5 @@
-/.settings
+.settings/
 .project
 .classpath
-/target
-/build/
-/logs/
+logs/
+target/
